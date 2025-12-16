@@ -17,4 +17,5 @@ This project was created for educational and demonstration purposes. It does not
 
 👩‍💻 Author
 Developed by Atiqah Pramudya
+
 University Student | Web Development & Technology Enthusiast
