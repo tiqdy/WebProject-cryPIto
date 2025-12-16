@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="Asset/web icon.png" />
+  <title>cryPIto Register</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-blurs">
+    <div class="blur-ellipse blur1"></div>
+    <div class="blur-ellipse blur2"></div>
+    <div class="blur-ellipse blur3"></div>
+    <div class="blur-ellipse blur4"></div>
+  </div>
+
+  <header>
+    <h1 class="header-title">
+      <span class="cry">cry</span><span class="PIto">PIto</span>
+    </h1>
+
+    <button id="hamburger" aria-label="Toggle navigation">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="currencies.html">Currencies</a></li>
+        <li><a href="learn.html">Learn</a></li>
+        <li><a href="benefit.html">Benefit</a></li>
+        <li class="signup-button"><a href="register.html" class="active"><button>Sign Up</button></a></li>
+        <li id="logout-button-li" style="display:none;"><button id="logout-button" style="display:none;">Logout</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="register-container">
+    <h2>Create Your Account</h2>
+    <form id="register-form" novalidate>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required />
+
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required />
+
+      <label class="checkbox-label">
+        <input type="checkbox" id="terms" name="terms" required />
+        I agree to the terms and conditions
+      </label>
+
+      <button type="submit" class="register-button">Register</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

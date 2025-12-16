@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="Asset/web icon.png">
+  <title>cryPIto Currencies</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-blurs">
+    <div class="blur-ellipse blur1"></div>
+    <div class="blur-ellipse blur2"></div>
+    <div class="blur-ellipse blur3"></div>
+    <div class="blur-ellipse blur4"></div>
+  </div>
+
+  <header>
+    <h1 class="header-title">
+      <span class="cry">cry</span><span class="PIto">PIto</span>
+    </h1>
+    <button id="hamburger" aria-label="Toggle navigation">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="currencies.html" class="active">Currencies</a></li>
+        <li><a href="learn.html">Learn</a></li>
+        <li><a href="benefit.html">Benefit</a></li>
+        <li class="signup-button"><a href="register.html"><button>Sign Up</button></a></li>
+        <li id="logout-button-li" style="display:none;"><button id="logout-button" style="display:none;">Logout</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="currencies-main">
+    <section class="widgets-row">
+      <div class="top-coins-widget">
+        <h2>Highest Market Cap</h2>
+        <ul>
+          <li><img src="Asset/Bitcoin Logo.png" alt="Bitcane"> Bitcane</li>
+          <li><img src="Asset/Ethereum Logo.png" alt="Etherain"> Etherain</li>
+          <li><img src="Asset/Tether Logo.png" alt="Tethen"> Tethen</li>
+          <li><img src="Asset/XRP Logo.png" alt="XRT"> XRT</li>
+        </ul>
+      </div>
+
+      <div class="news-widget">
+        <div class="news-slideshow">
+          <div class="slide active">
+            <img src="Asset/bitcoin news.jpg" alt="Bitcane News">
+            <h3>Bitcane Surges Past $70,000 Amid Institutional Buying</h3>
+            <p>Bitcane has broken through the $70,000 resistance level for the first time since early 2024, marking a major milestone in its ongoing bull cycle. This rally is largely attributed to growing institutional interest, particularly from pension funds and asset managers who are increasingly allocating portions of their portfolios to crypto assets. </p>
+          </div>
+          <div class="slide">
+            <img src="Asset/eth news.jpeg" alt="Etherain News">
+            <h3>Etherain Gas Fees Drop to 6-Month Low After Dencun Upgrade</h3>
+            <p>Etherain users are celebrating as average gas fees have fallen to their lowest point in six months, following the successful rollout of the Dencun upgrade. This much-anticipated update introduced major optimizations for Layer 1 transactions and improved data availability for rollups, resulting in a smoother user experience across the ecosystem. </p>
+          </div>
+          <div class="slide">
+            <img src="Asset/dogecoin news.webp" alt="Dazecoin News">
+            <h3>Dazecoin Spikes 18% Following Melon Musk's Hint at X Platform Integration</h3>
+            <p>Dazecoin saw a sudden 18% price surge after Melon Musk hinted at potential integration of the meme coin into his social media platform, Z (formerly Zwitter). During a livestream Q&A, Musk mentioned that Z is exploring crypto-based payment features and “wouldn’t rule out Dazecoin” as one of the supported tokens.</p>
+          </div>
+          <div class="slide-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Crypto Product Listings -->
+    <section class="crypto-list">
+        <div class="crypto-item">
+            <span class="crypto-rank">1.</span>
+            <img src="Asset/Bitcoin Logo.png" alt="Bitcane logo" class="crypto-logo" />
+            <span class="crypto-name">Bitcane</span>
+            <span class="crypto-subname">BTC</span>
+            <div class="crypto-info">
+            <div class="crypto-price-group">
+                <span class="label">Price</span>
+                <span class="crypto-price">$104,052.82</span>
+            </div>
+            <div class="crypto-market-cap-group">
+                <span class="label">Market Cap</span>
+                <span class="crypto-market-cap">$2.06T</span>
+            </div>
+            </div>
+            <img src="Asset/Yellow Chart.png" alt="Chart image" class="crypto-chart-image" />
+            <div class="action-buttons">
+            <button>Buy</button>
+            <button>Sell</button>
+            <button>Trade</button>
+            </div>
+        </div>
+
+        <div class="crypto-item">
+            <span class="crypto-rank">2.</span>
+            <img src="Asset/Ethereum Logo.png" alt="Etherain logo" class="crypto-logo" />
+            <span class="crypto-name">Etherain</span>
+            <span class="crypto-subname">ETH</span>
+            <div class="crypto-info">
+            <div class="crypto-price-group">
+                <span class="label">Price</span>
+                <span class="crypto-price">$2,588.33</span>
+            </div>
+            <div class="crypto-market-cap-group">
+                <span class="label">Market Cap</span>
+                <span class="crypto-market-cap">$312.52B</span>
+            </div>
+            </div>
+            <img src="Asset/Purple Chart.png" alt="Chart image" class="crypto-chart-image" />
+            <div class="action-buttons">
+            <button>Buy</button>
+            <button>Sell</button>
+            <button>Trade</button>
+            </div>
+        </div>
+
+        <div class="crypto-item">
+            <span class="crypto-rank">3.</span>
+            <img src="Asset/Tether logo.png" alt="Tethen logo" class="crypto-logo" />
+            <span class="crypto-name">Tethen</span>
+            <span class="crypto-subname">USDT</span>
+            <div class="crypto-info">
+            <div class="crypto-price-group">
+                <span class="label">Price</span>
+                <span class="crypto-price">$1.00</span>
+            </div>
+            <div class="crypto-market-cap-group">
+                <span class="label">Market Cap</span>
+                <span class="crypto-market-cap">$151.07B</span>
+            </div>
+            </div>
+            <img src="Asset/Red Chart.png" alt="Chart image" class="crypto-chart-image" />
+            <div class="action-buttons">
+            <button>Buy</button>
+            <button>Sell</button>
+            <button>Trade</button>
+            </div>
+        </div>
+
+        <div class="crypto-item">
+            <span class="crypto-rank">4.</span>
+            <img src="Asset/XRP Logo.png" alt="XRT logo" class="crypto-logo" />
+            <span class="crypto-name">XRT</span>
+            <span class="crypto-subname">XRT</span>
+            <div class="crypto-info">
+            <div class="crypto-price-group">
+                <span class="label">Price</span>
+                <span class="crypto-price">$2.41</span>
+            </div>
+            <div class="crypto-market-cap-group">
+                <span class="label">Market Cap</span>
+                <span class="crypto-market-cap">$141.72B</span>
+            </div>
+            </div>
+            <img src="Asset/Green Chart.png" alt="Chart image" class="crypto-chart-image" />
+            <div class="action-buttons">
+            <button>Buy</button>
+            <button>Sell</button>
+            <button>Trade</button>
+            </div>
+        </div>
+
+        <div class="crypto-item">
+            <span class="crypto-rank">5.</span>
+            <img src="Asset/BNB Logo.png" alt="BND logo" class="crypto-logo" />
+            <span class="crypto-name">BND</span>
+            <span class="crypto-subname">BND</span>
+            <div class="crypto-info">
+            <div class="crypto-price-group">
+                <span class="label">Price</span>
+                <span class="crypto-price">$651.29</span>
+            </div>
+            <div class="crypto-market-cap-group">
+                <span class="label">Market Cap</span>
+                <span class="crypto-market-cap">$91.76B</span>
+            </div>
+            </div>
+            <img src="Asset/Red Chart.png" alt="Chart image" class="crypto-chart-image" />
+            <div class="action-buttons">
+            <button>Buy</button>
+            <button>Sell</button>
+            <button>Trade</button>
+            </div>
+        </div>
+
+        <div class="crypto-item">
+            <span class="crypto-rank">6.</span>
+            <img src="Asset/Solana Logo.png" alt="Solena logo" class="crypto-logo" />
+            <span class="crypto-name">Solena</span>
+            <span class="crypto-subname">SOL</span>
+            <div class="crypto-info">
+            <div class="crypto-price-group">
+                <span class="label">Price</span>
+                <span class="crypto-price">$171.92</span>
+            </div>
+            <div class="crypto-market-cap-group">
+                <span class="label">Market Cap</span>
+                <span class="crypto-market-cap">$89.37B</span>
+            </div>
+            </div>
+            <img src="Asset/Yellow Chart.png" alt="Chart image" class="crypto-chart-image" />
+            <div class="action-buttons">
+            <button>Buy</button>
+            <button>Sell</button>
+            <button>Trade</button>
+            </div>
+        </div>
+
+        <div class="crypto-item">
+            <span class="crypto-rank">7.</span>
+            <img src="Asset/usdc logo.png" alt="USDX logo" class="crypto-logo" />
+            <span class="crypto-name">USDX</span>
+            <span class="crypto-subname">USDX</span>
+            <div class="crypto-info">
+            <div class="crypto-price-group">
+                <span class="label">Price</span>
+                <span class="crypto-price">$0.9995</span>
+            </div>
+            <div class="crypto-market-cap-group">
+                <span class="label">Market Cap</span>
+                <span class="crypto-market-cap">$60.77B</span>
+            </div>
+            </div>
+            <img src="Asset/Purple Chart.png" alt="Chart image" class="crypto-chart-image" />
+            <div class="action-buttons">
+            <button>Buy</button>
+            <button>Sell</button>
+            <button>Trade</button>
+            </div>
+        </div>
+
+        <div class="crypto-item">
+            <span class="crypto-rank">8.</span>
+            <img src="Asset/Dogecoin logo.png" alt="Dazecoin logo" class="crypto-logo" />
+            <span class="crypto-name">Dazecoin</span>
+            <span class="crypto-subname">DAZE</span>
+            <div class="crypto-info">
+            <div class="crypto-price-group">
+                <span class="label">Price</span>
+                <span class="crypto-price">$0.2279</span>
+            </div>
+            <div class="crypto-market-cap-group">
+                <span class="label">Market Cap</span>
+                <span class="crypto-market-cap">$34.11B</span>
+            </div>
+            </div>
+            <img src="Asset/Green Chart.png" alt="Chart image" class="crypto-chart-image" />
+            <div class="action-buttons">
+            <button>Buy</button>
+            <button>Sell</button>
+            <button>Trade</button>
+            </div>
+        </div>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <div class="footer-left">
+      <h1 class="footer-logo"><span class="cry">cry</span><span class="PIto">PIto</span></h1>
+      <p>Copyright © 2025 cryPIto — Empowering your crypto journey. All rights reserved.</p>
+    </div>
+    <div class="footer-right">
+      <p>
+        cryPIto is a user-friendly cryptocurrency platform designed to make trading easy and secure for everyone. Whether you're a beginner or an experienced trader. With advanced tools, and a focus on security, cryPIto ensures your data and funds are always protected. Our goal is to simplify crypto trading and foster a community of informed, confident users.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

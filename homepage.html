@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="Asset/web icon.png">
+  <title>cryPIto Homepage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="background-blurs">
+        <div class="blur-ellipse blur1"></div>
+        <div class="blur-ellipse blur2"></div>
+        <div class="blur-ellipse blur3"></div>
+        <div class="blur-ellipse blur4"></div>
+    </div>
+
+  <header>
+    <h1 class="header-title">
+      <span class="cry">cry</span><span class="PIto">PIto</span>
+    </h1>
+
+    <button id="hamburger" aria-label="Toggle navigation">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="homepage.html" class="active">Home</a></li>
+        <li><a href="currencies.html">Currencies</a></li>
+        <li><a href="learn.html">Learn</a></li>
+        <li><a href="benefit.html">Benefit</a></li>
+        <li class="signup-button"><a href="register.html"><button>Sign Up</button></a></li>
+        <li id="logout-button-li" style="display:none;"><button id="logout-button" style="display:none;">Logout</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro-section">
+      <div class="intro-text">
+        <h2>Learn, Trade, and Grow with Digital Assets</h2>
+        <p>Access real-time market insights, advanced tools, and educational resources in one secure, intuitive platform.</p>
+        <button id="get-started-btn">Get Started</button>
+      </div>
+      <img src="Asset/Homepage 1.png" alt="Illustration of people interacting with digital assets" class="intro-image" />
+    </section>
+
+    <section id="leading-cryptos">
+      <h2>Explore Today's<br />Leading Cryptocurrencies</h2>
+      <div class="crypto-list">
+        <div class="crypto-item">
+          <span class="crypto-rank">1.</span>
+          <img src="Asset/Bitcoin Logo.png" alt="Bitcane logo" class="crypto-logo" />
+          <span class="crypto-name">Bitcane</span>
+          <span class="crypto-subname">BTC</span>
+          <span class="crypto-price">$104,052.82</span>
+          <span class="crypto-market-cap">$2.06T</span>
+          <img src="Asset/Yellow Chart.png" alt="Chart image" class="crypto-chart-image" />
+        </div>
+
+        <div class="crypto-item">
+          <span class="crypto-rank">2.</span>
+          <img src="Asset/Ethereum Logo.png" alt="Etherain logo" class="crypto-logo" />
+          <span class="crypto-name">Etherain</span>
+          <span class="crypto-subname">ETH</span>
+          <span class="crypto-price">$2,588.33</span>
+          <span class="crypto-market-cap">$312.52B</span>
+          <img src="Asset/Purple Chart.png" alt="Chart image" class="crypto-chart-image" />
+        </div>
+
+        <div class="crypto-item">
+          <span class="crypto-rank">3.</span>
+          <img src="Asset/Tether logo.png" alt="Tether logo" class="crypto-logo" />
+          <span class="crypto-name">Tethen</span>
+          <span class="crypto-subname">USDT</span>
+          <span class="crypto-price">$1.00</span>
+          <span class="crypto-market-cap">$151.07B</span>
+          <img src="Asset/Red Chart.png" alt="Chart image" class="crypto-chart-image" />
+        </div>
+
+        <div class="crypto-item">
+          <span class="crypto-rank">4.</span>
+          <img src="Asset/XRP Logo.png" alt="XRP logo" class="crypto-logo" />
+          <span class="crypto-name">XRT</span>
+          <span class="crypto-subname">XRT</span>
+          <span class="crypto-price">$2.41</span>
+          <span class="crypto-market-cap">$141.72B</span>
+          <img src="Asset/Green Chart.png" alt="Chart image" class="crypto-chart-image" />
+        </div>
+      </div>
+      <a href="currencies.html"><button class="view-coins-button">View All Coins</button></a>
+    </section>
+
+    <section class="journey">
+      <img src="Asset/Homepage 2.png" alt="Illustration of a person teaching about cryptocurrency" />
+      <div class="journey-text">
+        <h2>Begin Your Crypto Journey</h2>
+        <p>
+          Discover the world of crypto through simple, structured lessons. From core concepts to advanced topics, learn
+          everything you need to know.
+        </p>
+        <a href="learn.html"><button class="learn-more-button">Learn More</button></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-left">
+      <h1 class="footer-logo"><span class="cry">cry</span><span class="PIto">PIto</span></h1>
+      <p>Copyright © 2025 cryPIto — Empowering your crypto journey. All rights reserved.</p>
+    </div>
+    <div class="footer-right">
+      <p>
+        cryPIto is a user-friendly cryptocurrency platform designed to make trading easy and secure for everyone. Whether you're a beginner or an experienced trader. With advanced tools, and a focus on security, cryPIto ensures your data and funds are always protected. Our goal is to simplify crypto trading and foster a community of informed, confident users.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
