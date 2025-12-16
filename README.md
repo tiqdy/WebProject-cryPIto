@@ -1,5 +1,4 @@
-🪙 cryPIto 
-cryPIto is a cryptocurrency-themed web project designed to provide users with an engaging and informative interface to explore digital currencies, market data, and crypto-related news. 
+🪙 cryPIto is a cryptocurrency-themed web project designed to provide users with an engaging and informative interface to explore digital currencies, market data, and crypto-related news. 
 The project focuses on a modern UI, responsive design, and clean separation between structure (HTML) and styling (CSS).
 
 🌐 Project Overview
